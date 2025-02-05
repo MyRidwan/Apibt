@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT = 6969;
-const { createSSH, createVMess, createTrojan, createVLESS } = require('xwantunnel');
+const { createSSH, createVMess, createTrojan, createVLESS } = require('fightertunnel');
 
 app.use(express.json());
 
