@@ -55,7 +55,7 @@ if [[ "$CONFIRM" != "y" ]]; then
 fi
 
 loading "📂 Membuat file konfigurasi .env"
-cat >/root/Api/.env << EOF
+cat >/root/Apibt/.env << EOF
 ALLOWED_IPS=$ALLOWED_IPS
 PORT=$PORT
 EOF
