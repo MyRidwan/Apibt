@@ -59,6 +59,9 @@ cat >/root/Apibt/.env << EOF
 ALLOWED_IPS=$ALLOWED_IPS
 PORT=$PORT
 EOF
+loading "📂 Menginstall Bahan Yang Diperlukan"
+cd /root/Apibt
+npm i
 echo -e "${GREEN}✅ File .env berhasil dibuat.${NC}"
 
 loading "📂 Membuat file service systemd"
